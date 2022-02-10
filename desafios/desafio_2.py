@@ -16,7 +16,7 @@ else:
 m = (seconds % 3600) // 60
 s = (seconds % 3600) % 60
 hora1 = str(f'{seconds//3600}:{m}:{s}')
-print(f'Formato 1 (horas:minutos:segundos - sem formatação correta, conforme pedido nos exemplos do exercício):\n{hora1}\n') # RESPOSTA MASI CORRETA E IDENTICA À SOLUÇÃO DO EXERCICIO PROPOSTO
+print(f'Formato 1 (horas:minutos:segundos - sem formatação correta, conforme pedido nos exemplos do exercício):\n{hora1}\n') # RESPOSTA MAIS CORRETA E IDENTICA À SOLUÇÃO DO EXERCICIO PROPOSTO
 
 print(f'Formato 2 (horas:minutos:segundos - com formatação correta. Se a quantidade de horas exceder 24 ou multiplo de 24, aparecem apenas as horas restantes):\n{time(h,m,s).strftime("%H:%M:%S")}\n') # RESPOSTA COM UMA FORMATAÇÃO MELHOR MAS NÃO ATENDE À TODOS OS EXEMPLOS
 
